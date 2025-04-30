@@ -1,0 +1,10 @@
+clc;
+clear all;
+n=10;
+a=input('Enter the value of a: ');
+b=input('Enter the value of b: ');
+c=n*a^3/b + 3*n*a^2/b^2 + 6 *n*a/b^3;
+disp("wait 3 sec");
+pause(3);
+disp("The value of c is: ");
+disp(c);
